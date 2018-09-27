@@ -806,13 +806,13 @@
             <Permissions>/permission/admin/manage/identity/rolemgt/delete</Permissions>
         </Resource>
         <Resource context="(.*)/scim2/Me" http-method="GET" secured="true">
-            <Permissions>/permission/admin/login</Permissions>
+            <Permissions></Permissions>
         </Resource>
         <Resource context="(.*)/scim2/Me" http-method="DELETE" secured="true">
             <Permissions>/permission/admin/manage/identity/usermgt/delete</Permissions>
         </Resource>
         <Resource context="(.*)/scim2/Me" http-method="PUT" secured="true">
-            <Permissions>/permission/admin/login</Permissions>
+            <Permissions></Permissions>
         </Resource>
         <Resource context="(.*)/scim2/Me" http-method="PATCH" secured="true">
             <Permissions>/permission/admin/login</Permissions>
