@@ -2102,6 +2102,16 @@
 				<SupportedByDefault />
 				<MappedLocalClaim>http://wso2.org/claims/identity/verifyEmail</MappedLocalClaim>
 			</Claim>
+			<Claim>
+				<ClaimURI>urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:lastLoginTime</ClaimURI>
+				<DisplayName>last Login Time</DisplayName>
+				<AttributeID>lastLoginTime</AttributeID>
+				<Description>Last login time of user</Description>
+				<Required />
+				<DisplayOrder>1</DisplayOrder>
+				<SupportedByDefault />
+				<MappedLocalClaim>http://wso2.org/claims/lastLoginTime</MappedLocalClaim>
+			</Claim>
 		</Dialect>
 		<Dialect dialectURI="http://eidas.europa.eu/attributes/naturalperson">
 			<Claim>
