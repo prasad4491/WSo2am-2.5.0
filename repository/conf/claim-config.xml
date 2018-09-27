@@ -391,6 +391,54 @@
 				<Description>Address - Locality</Description>
 			</Claim>
 			<Claim>
+				<ClaimURI>http://wso2.org/claims/correspondenceAddress</ClaimURI>
+				<DisplayName>Correspondence Address</DisplayName>
+				<AttributeID>correspondenceAddress</AttributeID>
+				<Description>CorrespondenceAddress</Description>
+			</Claim>
+			<Claim>
+				<ClaimURI>http://wso2.org/claims/correspondenceAddress.city</ClaimURI>
+				<DisplayName>Correspondence Address - City</DisplayName>
+				<AttributeID>correspondenceAddressCity</AttributeID>
+				<Description>Correspondence Address - City</Description>
+			</Claim>
+			<Claim>
+				<ClaimURI>http://wso2.org/claims/correspondenceAddress.street</ClaimURI>
+				<DisplayName>Correspondence Address - Street</DisplayName>
+				<AttributeID>correspondenceAddressStreet</AttributeID>
+				<Description>Correspondence Address - Street</Description>
+			</Claim>
+			<Claim>
+				<ClaimURI>http://wso2.org/claims/correspondenceAddress.state</ClaimURI>
+				<DisplayName>Correspondence Address - State</DisplayName>
+				<AttributeID>correspondenceAddressState</AttributeID>
+				<Description>Correspondence Address - State</Description>
+			</Claim>
+			<Claim>
+				<ClaimURI>http://wso2.org/claims/correspondenceAddress.postalCode</ClaimURI>
+				<DisplayName>Correspondence Address - PostalCode</DisplayName>
+				<AttributeID>correspondenceAddressPostalCode</AttributeID>
+				<Description>Correspondence Address - PostalCode</Description>
+			</Claim>
+			<Claim>
+				<ClaimURI>http://wso2.org/claims/correspondenceAddress.country</ClaimURI>
+				<DisplayName>Correspondence Address - Country</DisplayName>
+				<AttributeID>correspondenceAddressCountry</AttributeID>
+				<Description>Correspondence Address - Country</Description>
+			</Claim>
+			<Claim>
+				<ClaimURI>http://wso2.org/claims/licenseAccepted</ClaimURI>
+				<DisplayName>License Accepted</DisplayName>
+				<AttributeID>licenseAccepted</AttributeID>
+				<Description>License Accepted</Description>
+			</Claim>
+			<Claim>
+				<ClaimURI>http://wso2.org/claims/state</ClaimURI>
+				<DisplayName>State</DisplayName>
+				<AttributeID>state</AttributeID>
+				<Description>state</Description>
+			</Claim>
+			<Claim>
 				<ClaimURI>http://wso2.org/claims/groups</ClaimURI>
 				<DisplayName>Groups</DisplayName>
 				<AttributeID>groups</AttributeID>
@@ -2111,6 +2159,78 @@
 				<DisplayOrder>1</DisplayOrder>
 				<SupportedByDefault />
 				<MappedLocalClaim>http://wso2.org/claims/lastLoginTime</MappedLocalClaim>
+			</Claim>
+			<Claim>
+				<ClaimURI>urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:correspondenceAddress</ClaimURI>
+				<DisplayName>Correspondence Address</DisplayName>
+				<AttributeID>correspondenceAddress</AttributeID>
+				<Description>Correspondence Address of user</Description>
+				<DisplayOrder>1</DisplayOrder>
+				<SupportedByDefault />
+				<MappedLocalClaim>http://wso2.org/claims/correspondenceAddress</MappedLocalClaim>
+			</Claim>
+			<Claim>
+				<ClaimURI>urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:correspondenceAddress.city</ClaimURI>
+				<DisplayName>Correspondence Address - City</DisplayName>
+				<AttributeID>correspondenceAddressCity</AttributeID>
+				<Description>Correspondence Address - City</Description>
+				<DisplayOrder>1</DisplayOrder>
+				<SupportedByDefault />
+				<MappedLocalClaim>http://wso2.org/claims/correspondenceAddress.city</MappedLocalClaim>
+			</Claim>
+			<Claim>
+				<ClaimURI>urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:correspondenceAddress.street</ClaimURI>
+				<DisplayName>Correspondence Address - Street</DisplayName>
+				<AttributeID>correspondenceAddressStreet</AttributeID>
+				<Description>Correspondence Address - Street</Description>
+				<DisplayOrder>1</DisplayOrder>
+				<SupportedByDefault />
+				<MappedLocalClaim>http://wso2.org/claims/correspondenceAddress.street</MappedLocalClaim>
+			</Claim>
+			<Claim>
+				<ClaimURI>urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:correspondenceAddress.state</ClaimURI>
+				<DisplayName>Correspondence Address - State</DisplayName>
+				<AttributeID>correspondenceAddressState</AttributeID>
+				<Description>Correspondence Address - State</Description>
+				<DisplayOrder>1</DisplayOrder>
+				<SupportedByDefault />
+				<MappedLocalClaim>http://wso2.org/claims/correspondenceAddress.state</MappedLocalClaim>
+			</Claim>
+			<Claim>
+				<ClaimURI>urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:correspondenceAddress.postalCode</ClaimURI>
+				<DisplayName>Correspondence Address - PostalCode</DisplayName>
+				<AttributeID>correspondenceAddressPostalCode</AttributeID>
+				<Description>Correspondence Address - PostalCode</Description>
+				<DisplayOrder>1</DisplayOrder>
+				<SupportedByDefault />
+				<MappedLocalClaim>http://wso2.org/claims/correspondenceAddress.postalCode</MappedLocalClaim>
+			</Claim>
+			<Claim>
+				<ClaimURI>urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:correspondenceAddress.country</ClaimURI>
+				<DisplayName>Correspondence Address - Country</DisplayName>
+				<AttributeID>correspondenceAddressCountry</AttributeID>
+				<Description>Correspondence Address - Country</Description>
+				<DisplayOrder>1</DisplayOrder>
+				<SupportedByDefault />
+				<MappedLocalClaim>http://wso2.org/claims/correspondenceAddress.country</MappedLocalClaim>
+			</Claim>
+			<Claim>
+				<ClaimURI>urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:licenseAccepted</ClaimURI>
+				<DisplayName>License Accepted</DisplayName>
+				<AttributeID>licenseAccepted</AttributeID>
+				<Description>License Accepted</Description>
+				<DisplayOrder>1</DisplayOrder>
+				<SupportedByDefault />
+				<MappedLocalClaim>http://wso2.org/claims/licenseAccepted</MappedLocalClaim>
+			</Claim>
+			<Claim>
+				<ClaimURI>urn:ietf:params:scim:schemas:extension:enterprise:2.0:User:state</ClaimURI>
+				<DisplayName>State</DisplayName>
+				<AttributeID>state</AttributeID>
+				<Description>state</Description>
+				<DisplayOrder>1</DisplayOrder>
+				<SupportedByDefault />
+				<MappedLocalClaim>http://wso2.org/claims/state</MappedLocalClaim>
 			</Claim>
 		</Dialect>
 		<Dialect dialectURI="http://eidas.europa.eu/attributes/naturalperson">
